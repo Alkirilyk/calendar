@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<link rel="stylesheet" type="text/css" href="fontawsome/fontawesome-free-5.4.1-web">
+	<link rel="stylesheet" type="text/css" href="style/style2.css">
+</head>
+<body>
+    <header class="container">
+		<nav>
+			<a href="">CULTURE</a>
+			<a href="">EVENTS</a>
+			<a href="">FOOD</a>
+			<a href=""><img src="img/logo.png"></a>
+			<a href="">TRAVELLING</a>
+			<a href="">FASHION</a>
+			<a href="">OTHER</a>
+		</nav>
+	</header>
+
+	<section class="container">
+		<main class="main">
+			<h3>Recent articles</h3>
+
+			<div class="article-wrap">
+				<div class="article-img">
+					<img src="img/shutterstock_309104222.jpg">
+				</div>
+				<div class="article-content">
+					<p class="main1">5 Standout Things to Know About the 2016<br> Cannes Film Festival</p>
+					<br>
+					<span class="a"> June 8, 2016 </span>
+					<span class="a">&ensp;by Saveliy Bondini&ensp;</span>
+					<span class="a2">Culture</span>
+					<br>
+					<br>
+					<p>The 69th annual Cannes Film Festival won’t officially kick off until tomorrow<br> evening, but it is already well underway: Kristen Stewart has explicated her<br> personal renaissance on the cover of Variety, Amazon has been awarded the...<i></i></p>
+					<span class="a"><i></i></span>
+					<span><i></i></span>
+				</div>
+			</div>
+
+    		<div class="article-wrap">
+    			<div class="article-img">
+    				<img src="img/одежда.jpg">
+    			</div>
+    			<div class="article-content">
+    			<p class="main1">5 Standout Things to Know About the 2016<br> Cannes Film Festival</p>
+    			<br>
+    			<span class="a"> June 8, 2016 </span>
+    			<span class="a">&ensp;by Saveliy Bondini&ensp;</span>
+    			<span class="a2">Fashion</span>
+    			<br>
+    			<br>
+    			<p>The 69th annual Cannes Film Festival won’t officially kick off until tomorrow<br> evening, but it is already well underway: Kristen Stewart has explicated her<br> personal renaissance on the cover of Variety, Amazon has been awarded the...<i></i></p>
+    			<span><i></i></span>
+    			<span><i></i></span>
+    		</div>
+    		</div>
+
+    		<div class="article-wrap">
+    			<div class="article-img">
+    				<img src="img/shutterstock_309104222.jpg">
+    			</div>
+    			<div class="article-content">
+    			<p class="main1">5 Standout Things to Know About the 2016<br> Cannes Film Festival</p>
+    			<br>
+    			<span class="a"> June 8, 2016 </span>
+    			<span class="a">&ensp;by Saveliy Bondini&ensp;</span>
+    			<span class="a2">Events</span>
+    			<br>
+    			<br>
+    			<p>The 69th annual Cannes Film Festival won’t officially kick off until tomorrow<br> evening, but it is already well underway: Kristen Stewart has explicated her<br> personal renaissance on the cover of Variety, Amazon has been awarded the...<i></i></p>
+    			<span><i></i></span>
+    			<span><i></i></span>
+    		</div>
+    		</div>
+
+    		<div class="article-wrap">
+    			<div class="article-img">
+    				<img src="img/пейзаж.jpg">
+    			</div>
+    			<div class="article-content">
+    			<p class="main1">5 Standout Things to Know About the 2016<br> Cannes Film Festival</p>
+    			<br>
+    			<span class="a"> June 8, 2016 </span>
+    			<span class="a">&ensp;by Saveliy Bondini&ensp;</span>
+    			<span class="a2">Travelling</span>
+    			<br>
+    			<br>
+    			<p>The 69th annual Cannes Film Festival won’t officially kick off until tomorrow<br> evening, but it is already well underway: Kristen Stewart has explicated her<br> personal renaissance on the cover of Variety, Amazon has been awarded the...<i></i></p>
+    			<span><i></i></span>
+    			<span><i></i></span>
+    		</div>
+    		</div>
+
+    		<div class="article-wrap">
+    			<div class="article-img">
+    				<img src="img/еда.png">
+    			</div>
+    			<div class="article-content">
+    				<p class="main1">5 Standout Things to Know About the 2016<br> Cannes Film Festival</p>
+    				<br>
+    				<span class="a"> June 8, 2016 </span>
+    				<span class="a">&ensp;by Saveliy Bondini&ensp;</span>
+    				<span class="a2">Food</span>
+    				<br>
+    				<br>
+    				<p>The 69th annual Cannes Film Festival won’t officially kick off until tomorrow<br> evening, but it is already well underway: Kristen Stewart has explicated her<br> personal renaissance on the cover of Variety, Amazon has been awarded the...<i></i></p>
+    				<span><i></i></span>
+    				<span><i></i></span>
+    			</div>
+    		</div>
+
+    		 <form><button>MORE ARTICLES</button></form>
+
+    	</main>
+
+
+    	<aside class="aside">
+    		<input type="search" name="">
+    		<table id="calendar2">
+  <thead>
+    <tr><td>‹<td colspan="5"><td>›
+    <tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+  <tbody>
+</table>
+
+<script>
+function Calendar2(id, year, month) {
+var Dlast = new Date(year,month+1,0).getDate(),
+    D = new Date(year,month,Dlast),
+    DNlast = new Date(D.getFullYear(),D.getMonth(),Dlast).getDay(),
+    DNfirst = new Date(D.getFullYear(),D.getMonth(),1).getDay(),
+    calendar = '<tr>',
+    month=["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","October","Ноябрь","Декабрь"];
+if (DNfirst != 0) {
+  for(var  i = 1; i < DNfirst; i++) calendar += '<td>';
+}else{
+  for(var  i = 0; i < 6; i++) calendar += '<td>';
+}
+for(var  i = 1; i <= Dlast; i++) {
+  if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
+    calendar += '<td class="today">' + i;
+  }else{
+    calendar += '<td>' + i;
+  }
+  if (new Date(D.getFullYear(),D.getMonth(),i).getDay() == 0) {
+    calendar += '<tr>';
+  }
+}
+for(var  i = DNlast; i < 7; i++) calendar += '<td>&nbsp;';
+document.querySelector('#'+id+' tbody').innerHTML = calendar;
+document.querySelector('#'+id+' thead td:nth-child(2)').innerHTML = month[D.getMonth()] +' '+ D.getFullYear();
+document.querySelector('#'+id+' thead td:nth-child(2)').dataset.month = D.getMonth();
+document.querySelector('#'+id+' thead td:nth-child(2)').dataset.year = D.getFullYear();
+if (document.querySelectorAll('#'+id+' tbody tr').length < 6) {  // чтобы при перелистывании месяцев не "подпрыгивала" вся страница, добавляется ряд пустых клеток. Итог: всегда 6 строк для цифр
+    document.querySelector('#'+id+' tbody').innerHTML += '<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;';
+}
+}
+Calendar2("calendar2", new Date().getFullYear(), new Date().getMonth());
+// переключатель минус месяц
+document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(1)').onclick = function() {
+  Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)-1);
+}
+// переключатель плюс месяц
+document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').onclick = function() {
+  Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)+1);
+}
+</script>
+        <h3>Popular News</h3>
+        <br>
+        <br>
+        <p class="a3">June 5,2016</p>
+        <p>Scene:The Guide</p>
+        <br>
+        <p class="a3">June 5,2016</p>
+        <p>Discovering Relatives and Relics in Southem Sweden</p>
+        <br>
+        <p class="a3">May 29,2016</p>
+        <p>Wileman Home Tour:Exeter History Resored</p>
+        <br>
+        <p class="a3">May 27,2016</p>
+        <p>Spring Seafood Midley</p>
+        <br>
+        <p class="a3">May 19,2016</p>
+        <p>Easter Brunch with a Bite</p>
+
+
+
+    	</aside>
+    	<div  class="but">
+    		
+    	</div>
+    </section>
+
+
+    <div class="foot">
+    	
+    </div>
+
+    <footer class="container">
+    	<div class="info">©2016 Gotham.All right reserved</div>
+    	<div class="footer-links">
+    		<a href="">About blog</a>
+    		<a href="" class="second-l">Need I help?</a>
+    		<a href="">Content guide</a>
+    	</div>
+    	<div>
+    		<img src="img/Gotham.jpg">
+    	</div>
+    </footer>
+</body>
+</html>
